@@ -1,0 +1,57 @@
+
+.Header-main {
+  background: linear-gradient(to right, #4f46e5, #1436b0, #2d3460de, #a855f7);
+  padding: 20px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a shadow effect */
+}
+
+.Header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Header-title {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Header-nav .Header-menu {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.Header-nav .Header-menu li {
+  display: inline;
+}
+
+.Header-nav .Header-menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.Header-nav .Header-menu a:hover {
+  color: #ff5fea;
+}
+
+@media (max-width: 768px) {
+  .Header-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .Header-nav .Header-menu {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
