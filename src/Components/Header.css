@@ -34,6 +34,7 @@
 }
 
 .Header-nav .Header-menu a {
+  font-family: 'Poppins', sans-serif;
   color: white;
   text-decoration: none;
   font-size: 18px;
