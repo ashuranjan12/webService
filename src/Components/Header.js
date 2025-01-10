@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <header className="Header-main">
       <div className="Header-container">
-        <h1 className="Header-title">webService</h1>
+        <h1 className="Header-title" style={{fontFamily: 'poppins'}}>upWeb</h1>
         <nav className="Header-nav">
           <ul className="Header-menu">
             <li>
